@@ -1,0 +1,138 @@
+
+body, html {
+	height: 100%;
+	width: 100%;
+	overflow-x:hidden;
+	background-color: rgb(36, 36, 36);
+	color: #ffffff;
+}
+
+.borde {
+	border: 2px solid #000000;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.icon-socie {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+span a {
+	margin: 5px;
+}
+
+
+.img-borde {
+	border-radius: 5px 5px;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(../img/status.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+.glyphicon {
+	margin-right: 10px;
+}
+
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	left:0;
+	width:100%;
+	
+}
+
+.trans{
+	-webkit-transition: all ease .5;
+	-o-transition: all ease .5 ;
+	transition: all ease .5 ;
+}
+
+.h1_home{
+	font-size: 80px;
+	font-family: arvo;
+	font-weight: 300;
+	letter-spacing: 6px;
+}
+
+.h3_home{font-weight: 300;}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+}
+
+/* Button */ 
+
+.mybutton_cyano{
+	border: 1px solid #ffffff;
+	color: #fff;
+	background-color:#000000;
+}
+
+.mybutton_cyano:hover{
+	border: 2px solid #ffffff;
+	color: #ffffff !important;
+	background: rgba(204, 204, 204, 0);
+}
+/* Button */ 
+.cv {
+	border: 1px solid #000000;
+	color: #000000;
+	background-color:#ffffff;
+}
+
+.cv:hover {
+	border: 1px solid #ffffff;
+	color: #ffffff !important;
+	background-color: #000000;
+}
+.button_down img {
+width: 50px;
+	
+}
+.btn-primary {
+	border-color: rgba(52, 73, 94, 0);
+}
+
+
+.intro-header {
+	height: 100%; /* Full PAge */
+	padding-top: 50px; /*  If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	background: url(../img/intro/ass.jpg) no-repeat center center;
+	color: #ffffff;
+	background-size: cover;
+	text-align: center;
+}
+
+
+.intro-header p{
+	font-size:larger;
+}
